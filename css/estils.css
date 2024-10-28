@@ -22,10 +22,6 @@ body{
     margin-right: 100px;   
 }
 
-.nav-llista li a {
-    color: orange;           
-    text-decoration: none;  
-}
 
 .nav-llista li a:hover {
     color: black;
@@ -58,6 +54,7 @@ div{
     width: 20px;
     height: 20px; 
 }
+
 .negreta{
     font-weight: bold;
 }
@@ -69,11 +66,6 @@ div{
     height: 120px;
 }
 
-.enllas-inferior a{
-    text-decoration: none;
-    color: orange;
-}
-
 .enllas-inferior a:hover{
     color: black;
     text-decoration: underline;
@@ -82,6 +74,72 @@ div{
 footer{
     width: 139%;            
     margin-left: -25%;  
+ 
 }
 
+.contingut-pagina-llista {
+    display: flex; 
+}
 
+.contingut-pagina-llista div {
+    margin-right: 150px;  
+}
+
+.img-dreta{
+    margin-top: 30%;
+} 
+
+li > span {
+    color:#238ca1;
+    font-weight: bold;
+}
+
+.li{
+    list-style-type: none;
+}
+
+.ico{
+    list-style-type: none;
+    padding: 10px;
+} 
+
+.ico img{
+   padding-right: 5px;
+}
+
+.imatge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imatge img{
+    padding: 20px;
+}
+
+.imatge a{
+    background-color: #646464;
+    padding: 2px 60px 2px 60px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.imatge a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+.personatges dd a:hover{
+    text-decoration: underline;
+    color:violet;
+}
+
+.historia a:hover {
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+}
