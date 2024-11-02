@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estils.css">
+    <title>Reserva</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/RRLogo.png" alt="logo_rural_room"></a>
+        <nav>
+            <ul class="nav-llista">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="precios.html">Precios</a></li>
+                <li><a href="reserva.html" class="actual">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h1>Reserve su habitación en Rural Rooms</h1>
+    </div>
+    <form class="formulario">
+        <h3>Datos Personales</h3>
+        <ul class="datos-personales">
+            <li>
+                <select name="trato" id="trato">
+                    <option value=""></option>
+                    <option value="Sr">Sr</option>
+                    <option value="Sra">Sra</option>
+                    <option value="Srta">Srta</option>
+                </select>
+            <li><label for="">Nombre: </label> <input type="text" name="nombre" value=""></li>
+            <li><label for="">Apellidos: </label><input type="text" name="apellido" value=""></li>
+            </li>
+            <li><label for="">Telefono: </label><input type="text" name="telefono" value=""></li>
+            <li><label for="">Email: </label><input type="email" name="email" value=""></li>
+            <li><label for="">Comfirma el email: </label><input type="email" name="email" value=""></li>
+            <li><label for="">Introduce una contraseña: </label><input type="password" name="contra"></li>         
+            <li><input type="reset" value="Borrar Datos" class="boton"></li>
+        </ul>
+        <h3>Datos de la reserva</h3>
+        <ul class="datos-reserva">
+            <li><h4>Elige el tipo de habitacion:</h4>
+                <ul>
+                    <li><label for="individual" class="radio">Habitación individual</label>
+                        <input type="radio" id="individual" value="individual" name="habitacion"></li>
+                    <li><label for="doble" class="radio">Habitación doble</label>
+                        <input type="radio" id="doble" value="doble" name="habitacion"></li>
+                    <li><label for="doble_superior" class="radio">Habitación doble superior</label>
+                        <input type="radio" id="doble_superior" value="doble_superior" name="habitacion"></li>
+                    <li><label for="triple" class="radio">Habitación triple</label>
+                        <input type="radio" id="triple" value="triple" name="habitacion"></li> 
+                    <li><input type="reset" value="Desmarcar" class="boton"></li>
+                    
+                </ul>
+            </li>
+            <li><label for="n_person">Numero de personas: </label>
+                <input type="number" name="n_person" id="n_person" min="1" max="6"></li>
+            <li><label for="d_entrada">Fecha de entrada</label>
+                <input type="date" name="d_entrada" id="d_entrada"></li>
+            <li><label for="d_salida">Fecha de salida</label>
+                <input type="date" name="d_salida" id="d_salida"></li>
+            <li><label for="">Introduce peticiones especiales:</label><br>
+                 <textarea name="" id="" placeholder="Peticiones*" rows="5" cols="25"></textarea>
+                 <br><label id="*"><small>*No se pueden garantizar las peticiones pero se hara
+                    todo lo posible para satisfacerlas</small></label>
+        </ul>
+        <h3>Datos Adicionales</h3>
+        <ul class="datos-adicionales">
+            <li><label for="parking">¿Desea una plaza de parking cubierta por 8€ la noche?</label>
+                <label id="si_park" class="radio">Si</label><input type="radio" name="parking" id="parking">
+                <label id="no_park" class="radio">No</label><input type="radio" name="parking" id="parking">
+                <small>*Disponemos de parking exterior gratuito</small>
+            <li><label for="hora_llegada">Seleccione la hora de llegada pervista: </label>
+                <input type="time" name="hora_llegada" id="hora_llegada"></li>
+            <li><label for="desayuno">¿Desea añadir desayuno por 5€ al dia?</label>
+                <label id="desayuno" class="radio">Si</label><input type="radio" name="desayuno" id="desayuno">
+                <label id="desayuno" class="radio">No</label><input type="radio" name="desayuno" id="desayuno">
+        </ul>
+        <ul>
+            <li><input type="submit" value="RESERVAR" class="submit"></li>
+        </ul>
+    </form>
+
+    <footer class="parte-inferior">
+        <div>
+            Actividad realizada por <span class="bold">Raúl Morejón Pulido</span><br><br>
+            Fotografías de la portada <a class="creative-commons" href="https://unsplash.com">Unplash</a>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="img/creative-commons.png" alt="creative-commons"></a>
+        </div>
+    </footer>
+</body>
+</html>
