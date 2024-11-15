@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/estils.css">
+    <title>FR - Colección</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-llista">
+                <li><a href="index.html" >Inicio</a></li>
+                <li><a href="historia.html">Historia de la Fotografía</a></li>
+                <li><a href="coleccion.html" class="actual">Colección</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <div class="cuerpo">
+        <h1>COLECCIÓN</h1>
+        <div>
+            <p></p>
+            <div class="fotos-pequeñas">
+                <img src="img/atrac.jpeg" alt="" width="170px" height="230px" class="pequeña" onclick="mostrarImagenGrande(this)">
+                <img src="img/avion.jpeg" alt="" width="170px" height="230px" class="pequeña" onclick="mostrarImagenGrande(this)">
+                <img src="img/coche.jpeg" alt="" width="170px" height="230px" class="pequeña" onclick="mostrarImagenGrande(this)">
+                <img src="img/gato.jpeg"  alt="" width="170px" height="230px" class="pequeña" onclick="mostrarImagenGrande(this)"> 
+                <img src="img/luna.jpeg"  alt="" width="320px" height="230px" class="pequeña" onclick="mostrarImagenGrande(this)"> 
+                <img src="img/tren.jpeg"  alt="" width="170px" height="230px" class="pequeña" onclick="mostrarImagenGrande(this)">
+            </div>
+            <div class="grande" onclick="ocultarImagenGrande()">
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+        <a href="">© 2024 Fotografía Raúl</a>
+    </footer>
+ 
+    <script src="js/sricpt.js"></script>
+
+</body>
+</html>
