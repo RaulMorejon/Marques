@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resultat divisio="1">
+
+    <jornada num="1">
+        <nombre_liga>Liga BBVA</nombre_liga>
+        <partido>
+            <equipo1>R. Sociedad</equipo1>_
+            <equipo2>Getafe</equipo2>
+            <resultados>2-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Valencia</equipo1>_
+            <equipo2>Málaga</equipo2>
+            <resultados>1-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Osasuna</equipo1>_
+            <equipo2>Granada</equipo2>
+            <resultados>1-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Sevilla</equipo1>_
+            <equipo2>Atlético</equipo2>
+            <resultados>1-3</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Celta</equipo1>_
+            <equipo2>Espanyol</equipo2>
+            <resultados>2-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Valladolid</equipo1>_
+            <equipo2>Athletic</equipo2>
+            <resultados>1-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>FC Barcelona</equipo1>_
+            <equipo2>Levante</equipo2>
+            <resultados>7-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>R. Madrid</equipo1>_
+            <equipo2>Betis</equipo2>
+            <resultados>2-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Rayo</equipo1>_
+            <equipo2>Elche</equipo2>
+            <resultados>3-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Almería</equipo1>_
+            <equipo2>Villareal</equipo2>
+            <resultados>2-3</resultados>
+            <estado>finalizado</estado>
+        </partido>
+    </jornada>
+
+    <jornada num="2">
+        <partido>
+            <equipo1>Getafe</equipo1>_
+            <equipo2>Almería</equipo2>
+            <resultados>2-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Elche</equipo1>_
+            <equipo2>R. Sociedad</equipo2>
+            <resultados>1-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Villareal</equipo1>_
+            <equipo2>Valladolid</equipo2>
+            <resultados>2-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Málaga</equipo1>_
+            <equipo2>FC Barcelona</equipo2>
+            <resultados>0-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Betis</equipo1>_
+            <equipo2>Celta</equipo2>
+            <resultados>1-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Athletic</equipo1>_
+            <equipo2>Osasuna</equipo2>
+            <resultados>2-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Espanyol</equipo1>_
+            <equipo2>Valencia</equipo2>
+            <resultados>3-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Atlético</equipo1>_
+            <equipo2>Rayo</equipo2>
+            <resultados>5-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Levante</equipo1>_
+            <equipo2>Sevilla</equipo2>
+            <resultados>0-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Granada</equipo1>_
+            <equipo2>R. Madrid</equipo2>
+            <resultados>0-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+    </jornada>
+
+    <jornada num="3">
+        <partido>
+            <equipo1>Rayo</equipo1>_
+            <equipo2>Levante</equipo2>
+            <resultados>1-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Celta</equipo1>_
+            <equipo2>Granada</equipo2>
+            <resultados>1-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Osasuna</equipo1>_
+            <equipo2>Villareal</equipo2>
+            <resultados>0-3</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Espanyol</equipo1>_
+            <equipo2>Betis</equipo2>
+            <resultados>0-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Valencia</equipo1>_
+            <equipo2>FC Barcelona</equipo2>
+            <resultados>2-3</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Almería</equipo1>_
+            <equipo2>Elche</equipo2>
+            <resultados>2-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Valladolid</equipo1>_
+            <equipo2>Getafe</equipo2>
+            <resultados>1-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>R. Madrid</equipo1>_
+            <equipo2>Athletic</equipo2>
+            <resultados>3-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>R. Sociedad</equipo1>_
+            <equipo2>Atlético</equipo2>
+            <resultados>1-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Sevilla</equipo1>_
+            <equipo2>Malága</equipo2>
+            <resultados>2-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+    </jornada>
+
+    <jornada num="4">
+        <partido>
+            <equipo1>Atlético</equipo1>_
+            <equipo2>Almería</equipo2>
+            <resultados>4-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>FC Barcelona</equipo1>_
+            <equipo2>Sevilla</equipo2>
+            <resultados>3-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Granada</equipo1>_
+            <equipo2>Espanyol</equipo2>
+            <resultados>0-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Málaga</equipo1>_
+            <equipo2>Rayo</equipo2>
+            <resultados>5-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Elche</equipo1>_
+            <equipo2>Valladolid</equipo2>
+            <resultados>0-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Levante</equipo1>_
+            <equipo2>R. Sociedad</equipo2>
+            <resultados>0-0</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Villareal</equipo1>_
+            <equipo2>R. Madrid</equipo2>
+            <resultados>2-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Getafe</equipo1>_
+            <equipo2>Osasuna</equipo2>
+            <resultados>2-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Betis</equipo1>_
+            <equipo2>Valencia</equipo2>
+            <resultados>3-1</resultados>
+            <estado>finalizado</estado>
+        </partido>
+        <partido>
+            <equipo1>Athletic</equipo1>_
+            <equipo2>Celta</equipo2>
+            <resultados>3-2</resultados>
+            <estado>finalizado</estado>
+        </partido>
+    </jornada>
+
+</resultat>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<receptes>
+
+    <recepta>
+        <nom>Pastís de xocolata</nom>
+        <ingredients>
+            <ingredient>6 rovells d'ou</ingredient>
+            <ingredient>6 clares</ingredient>
+            <ingredient>150 g de sucre</ingredient>
+            <ingredient>200 g de xocolata negra de cobertura</ingredient>
+            <ingredient>50 g de mantega</ingredient>
+            <ingredient>Farina</ingredient>
+            <guarnicio>
+                <ingredient_guarnicio>nata muntada</ingredient_guarnicio>
+                <ingredient_guarnicio>cacau en pols</ingredient_guarnicio>
+            </guarnicio>
+        </ingredients>
+        <preparacio>
+
+            Per començar, barregeu els rovells d'ou amb el sucre en un bol.
+            Mentrestant, foneu la cobertura de xocolata al bany maria. Quan la 
+            xocolata s'hagi desfet, afegiu-hi la mantega i remeneu-ho. Tot seguit, 
+            munteu les clares que haureu tingut a la nevera perquè es muntin bé.
+            A continuació, barregeu la xocolata, els rovells i el sucre i les clares 
+            muntades. Remeneu-ho i poseu-ho en un motllo per al forn.
+            Deixeu-ho coure al forn a 180 graus durant 30 minuts. Després, deixeu 
+            refredar el pastís, desmotlleu-lo i emplateu-lo. I ja per acabar, 
+            decoreu-lo amb nata muntada i cacau en pols.
+
+        </preparacio>
+        <notes_complementaries>
+            Recepta del programa de TV3 Cuines, del restaurant Les Petxines.
+        </notes_complementaries>
+        <autors>
+            <nom>Bárbara Casanovas</nom>
+            <nom>Adrià Ruscadella</nom>
+        </autors>
+        <etiquetes>
+            <etiqueta>Postre</etiqueta>
+            <etiqueta>Dolços</etiqueta>
+            <etiqueta>Forn</etiqueta>
+            <etiqueta>Aniversari</etiqueta>
+            <etiqueta>Fàcil</etiqueta>
+            <etiqueta>Econòmic</etiqueta>
+        </etiquetes>
+    </recepta>
+
+    <recepta>
+        <nom>Volcà de xocolata</nom>
+        <ingredients>
+            <ingredient>4 ous</ingredient>
+            <ingredient>4 rovells</ingredient>
+            <ingredient>80 g de sucre</ingredient>
+            <ingredient>200 g de mantega</ingredient>
+            <ingredient>220 g de xocolata</ingredient>
+            <ingredient>60 g de farina</ingredient>
+        </ingredients>
+        <preparacio>
+
+            1.- Foneu al bany maria la xocolata i la mantega. Un cop fora del foc.
+            2.- Munteeu les clares, afegint-hi el sucre, quan comencin a agafar cos.
+            3.- Barregeu la meitat de les clares muntades amb la xocolata.
+                    Incorporeu-hi la farina i la resta de les clares.
+            4.- Pineteu motlles individuals amb mantega i farina, farciu-los amb la pasta 
+                    fins a la meitat i disposeu al centre un dau de xocolata. Acabeu de 
+                    farcir una mica més els motlles per a amagar el dau de xocolata.
+            5.- Coeu a 220° (forn només amb escalfor de baix) durant uns 10 minuts 
+                    aproximadament.
+            6.- Servir calent, empolvorat de sucre llustre i acompanyat d'una salseta o 
+                    de gelat. 
+
+        </preparacio>
+        <autors>
+            <nom>anna</nom>
+        </autors>
+        <etiquetes>
+            <etiqueta>Postre</etiqueta>
+            <etiqueta>Dolços</etiqueta>
+            <etiqueta>Festa</etiqueta>
+            <etiqueta>Fàcil</etiqueta>
+            <etiqueta>Econòmic</etiqueta>
+            <etiqueta>Catalana</etiqueta>
+            <temps_preparacio unitat_temps="minuts">30</temps_preparacio>
+            <cost divisa="euro">15</cost>
+            <calories>220</calories>
+        </etiquetes>
+    </recepta>
+
+    <recepta>
+        <nom>Pastís de formatge</nom> 
+        <ingredients>
+            <ingredient>2 terrines de formatge Philadelphia (200-300gr.)</ingredient>
+            <ingredient>3 ous</ingredient>
+            <ingredient>3 iogurts naturals</ingredient>
+            <ingredient>3 cullerades (grans) de farina</ingredient>
+            <ingredient>10 a 12 culleretes (petites) de sucre</ingredient>
+            <ingredient>Un parell de galetes Maria o Chiquilín</ingredient>
+        </ingredients>
+        <preparacio>
+
+            El primer que hem de fer és escalfar el forn a 200 graus. Budem les 
+            terrines de Philadelphia en un bol i remenem bé el formatge.
+            Afegim els 3 ous, els afegim i els remenem amb el formatge. Ara afegim 
+            els 3 iogurts naturals i la barreja i tornem a remenar. Quan tinguem una
+            pasta homogènia, hi posem la farina i el sucre - ho remenem tot fins que
+            no quedin grumolls. Preparem el motlle untant-lo bé amb mantega. 
+            Triturem les galetes i les repartim per tota la base del motlle.
+            Seguidament, hi evoquem la barreja que tenim ja preparada. Baixem el 
+            forn a 170º i hi col·loquem el pastís. Esperem uns 20 o 30 minuts. 
+            Com que la cocció depèn de la potència del forn, la millor manera per 
+            saber si el pastís està fet és punxar-lo pel mig amb algun instrument 
+            de fusta com un escuradents: quan en surti net vol dir que ja tenim el 
+            pastís deliciest. El deixem refredar i el retirem del motlle.
+            Ens el podem menjar sol o bé afegir-hi una capa molt fina de melmelada 
+            de maduixa o gerds. Ja veureu quina delícia!!!
+
+        </preparacio>
+         <notes_complementaries>
+            Una delícia pels més formatgers!!!
+        </notes_complementaries>
+        <autors>
+            <nom>eulàlia</nom>
+        </autors>
+        <etiquetes>
+            <etiqueta>Postre</etiqueta>
+        </etiquetes>
+    </recepta>
+
+</receptes>

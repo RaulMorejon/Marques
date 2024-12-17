@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pressupostos>
+    <pressupost num_pressupost = "1" divisa="euro">
+        <ordinador>
+            <!-- preu unitatri-->
+            <placaBase>120</placaBase>
+            <processador>232</processador>
+            <ram unitats="2">82</ram>
+            <discDur>53</discDur>
+            <grafica>680</grafica>
+            <targetaSo>23</targetaSo>
+        </ordinador>
+        <total>1190</total>
+    </pressupost>
+
+    <pressupost num_pressupost = "2" divisa="euro">
+        <ordinador>
+            <!-- preu unitatri-->
+            <placaBase>80</placaBase>
+            <processador>120</processador>
+            <ram unitats="2">42</ram>
+            <discDur>65</discDur>
+            <grafica>290</grafica>
+            <targetaSo>31</targetaSo>
+        </ordinador>
+        <total>626</total> 
+    </pressupost>
+
+</pressupostos>
