@@ -1,0 +1,269 @@
+{
+    "resultat": {
+      "divisio": "1",
+      "nombre_liga": "Liga BBVA",
+      "jornadas": [
+        {
+          "num": 1,
+          "partidos": [
+            {
+              "equipo1": "R. Sociedad",
+              "equipo2": "Getafe",
+              "resultados": "2-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Valencia",
+              "equipo2": "Málaga",
+              "resultados": "1-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Osasuna",
+              "equipo2": "Granada",
+              "resultados": "1-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Sevilla",
+              "equipo2": "Atlético",
+              "resultados": "1-3",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Celta",
+              "equipo2": "Espanyol",
+              "resultados": "2-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Valladolid",
+              "equipo2": "Athletic",
+              "resultados": "1-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "FC Barcelona",
+              "equipo2": "Levante",
+              "resultados": "7-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "R. Madrid",
+              "equipo2": "Betis",
+              "resultados": "2-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Rayo",
+              "equipo2": "Elche",
+              "resultados": "3-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Almería",
+              "equipo2": "Villareal",
+              "resultados": "2-3",
+              "estado": "finalizado"
+            }
+          ]
+        },
+        {
+          "num": 2,
+          "partidos": [
+            {
+              "equipo1": "Getafe",
+              "equipo2": "Almería",
+              "resultados": "2-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Elche",
+              "equipo2": "R. Sociedad",
+              "resultados": "1-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Villareal",
+              "equipo2": "Valladolid",
+              "resultados": "2-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Málaga",
+              "equipo2": "FC Barcelona",
+              "resultados": "0-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Betis",
+              "equipo2": "Celta",
+              "resultados": "1-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Athletic",
+              "equipo2": "Osasuna",
+              "resultados": "2-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Espanyol",
+              "equipo2": "Valencia",
+              "resultados": "3-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Atlético",
+              "equipo2": "Rayo",
+              "resultados": "5-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Levante",
+              "equipo2": "Sevilla",
+              "resultados": "0-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Granada",
+              "equipo2": "R. Madrid",
+              "resultados": "0-1",
+              "estado": "finalizado"
+            }
+          ]
+        },
+        {
+          "num": 3,
+          "partidos": [
+            {
+              "equipo1": "Rayo",
+              "equipo2": "Levante",
+              "resultados": "1-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Celta",
+              "equipo2": "Granada",
+              "resultados": "1-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Osasuna",
+              "equipo2": "Villareal",
+              "resultados": "0-3",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Espanyol",
+              "equipo2": "Betis",
+              "resultados": "0-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Valencia",
+              "equipo2": "FC Barcelona",
+              "resultados": "2-3",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Almería",
+              "equipo2": "Elche",
+              "resultados": "2-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Valladolid",
+              "equipo2": "Getafe",
+              "resultados": "1-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "R. Madrid",
+              "equipo2": "Athletic",
+              "resultados": "3-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "R. Sociedad",
+              "equipo2": "Atlético",
+              "resultados": "1-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Sevilla",
+              "equipo2": "Malága",
+              "resultados": "2-2",
+              "estado": "finalizado"
+            }
+          ]
+        },
+        {
+          "num": 4,
+          "partidos": [
+            {
+              "equipo1": "Atlético",
+              "equipo2": "Almería",
+              "resultados": "4-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "FC Barcelona",
+              "equipo2": "Sevilla",
+              "resultados": "3-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Granada",
+              "equipo2": "Espanyol",
+              "resultados": "0-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Málaga",
+              "equipo2": "Rayo",
+              "resultados": "5-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Elche",
+              "equipo2": "Valladolid",
+              "resultados": "0-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Levante",
+              "equipo2": "R. Sociedad",
+              "resultados": "0-0",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Villareal",
+              "equipo2": "R. Madrid",
+              "resultados": "2-2",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Getafe",
+              "equipo2": "Osasuna",
+              "resultados": "2-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Betis",
+              "equipo2": "Valencia",
+              "resultados": "3-1",
+              "estado": "finalizado"
+            },
+            {
+              "equipo1": "Athletic",
+              "equipo2": "Celta",
+              "resultados": "3-2",
+              "estado": "finalizado"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

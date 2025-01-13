@@ -1,0 +1,38 @@
+{
+    "pressupostos": [
+        { 
+            "num_pressupost": 1,
+            "divisa": "euro",
+            "ordinador": {
+                "placaBase": 120,
+                "processador": 232,
+                "ram": {
+                    "unitats": 2,
+                    "preu": 82
+                },
+                "discDur": 53,
+                "grafica": "680",
+                "targetaSo": "23"  
+            },
+            "total": 1190
+        },
+        { 
+            "num_pressupost": 2,
+            "divisa": "euro",
+            "ordinador": {
+                "placaBase": 80,
+                "processador": 120,
+                "ram": {
+                    "unitats": 2,
+                    "preu": 42
+                },
+                "discDur": 65,
+                "grafica": "290",
+                "targetaSo": "31"  
+            },
+            "total": 626
+        }
+
+    ]
+    
+}
