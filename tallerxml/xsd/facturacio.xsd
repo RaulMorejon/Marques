@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:complexType name="tipusRao">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="cognom" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="adreca" type="xs:string"/>
+            <xs:element name="codipostal" type="xs:integer"/>
+            <xs:element name="poblacio" type="xs:string"/>
+            <xs:element name="NIF" type="xs:string" minOccurs="0"/>
+            <xs:element name="domiciliat" minOccurs="0" maxOccurs="1"/>
+            <xs:element name="DNI" type="xs:string" minOccurs="0"/>
+            <xs:element name="CIF" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="tipus" use="required"/> 
+    </xs:complexType>
+
+    <xs:element name="facturacio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="empresa">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="raosocial" type="tipusRao"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="factura" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="client">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="raosocial" type="tipusRao"/>
+                                    </xs:sequence>
+                                </xs:complexType>                            
+                            </xs:element>
+                            <xs:element name="linies">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="producte" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="descripcio" type="xs:string"/>
+                                                    <xs:element name="quantitat" type="xs:integer"/>
+                                                    <xs:element name="preuunitari" type="xs:float"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="codi" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="data" type="xs:string"/>
+                            <xs:element name="subtotal" type="xs:float"/>
+                            <xs:element name="iva" type="xs:integer"/>
+                            <xs:element name="total" type="xs:float"/>
+                            <xs:element name="rebuts" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="rebut" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="data" type="xs:string"/>
+                                                    <xs:element name="totalrebut" type="xs:integer"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="numero" type="xs:integer" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="numero" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+</xs:schema>
