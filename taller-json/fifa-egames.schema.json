@@ -1,0 +1,89 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Final torneig FIFA",
+    "description": "Informació del la final del torneig del FIFA",
+    "type": "object",
+    "properties": {
+        "Guanyador": {
+            "description": "Equip guanyador del torneig",
+            "type": "string"
+        },
+        "Partit": {
+            "description": "Informació del partit",
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "nom-equip": {
+                        "description": "Nom de l'equip",
+                        "type": "string"
+                    },
+                    "nick-players": {
+                        "description": "Nicks dels jugadors",
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "gols": {
+                        "description": "Gols marcats",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "marcador": {
+                                    "description": "Puntuació en el moment amb el gol",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{1,2}-[0-9]{1,2}$"
+                                },
+                                "minut": {
+                                    "description": "Minut del gol",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{2}:[0-9]{2}$"
+                                },
+                                "jugador": {
+                                    "description": "Nom del jugador",
+                                    "type": "string"
+                                },
+                                "penal": {
+                                    "description": "True si es gol de penal",
+                                    "type": "boolean"
+                                }
+                            },
+                            "required": ["marcador", "minut", "jugador"]
+                        }
+                    },
+                    "targetes": {
+                        "description": "Targetes que s'han tret",
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "tipus": {
+                                    "description": "Tipus de targeta",
+                                    "type": "string",
+                                    "enum": ["groga", "roja"]
+                                },
+                                "minut": {
+                                    "description": "Minut en que s'ha tret la targeta",
+                                    "type": "string",
+                                    "pattern": "^[0-9]{2}:[0-9]{2}$"
+                                },
+                                "jugador": {
+                                    "description": "Nom a qui s'hi l'hi ha tret la targeta",
+                                    "type": "string"
+                                }
+                            },
+                            "required": ["tipus", "minut", "jugador"]
+                        }
+                    }
+                },
+                "required": ["nom-equip", "nick-players"]
+            }
+        }
+    },
+    "required": ["Guanyador"]
+}

@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "E-Games",
+    "description": "Informació d'un formulari per l'inscripció a EGames",
+    "type": "object",
+    "properties": {
+        "nom-equip":{
+                "description": "Nom de l'equip",
+                "type":"string"
+        },
+        "jugadors":{
+            "description": "Cada jugador amb la seva informació",
+            "type":"array",
+            "minItems":2,
+            "maxItems": 10,
+            "items": {
+                "type":"object",
+                "properties": {
+                    "num-jugador":{
+                        "description": "Numero del jugador",
+                        "type":"integer"
+                    },
+                    "DNI": {
+                        "description": "DNI del jugador",
+                        "type":"string"
+                    },
+                    "nom":{
+                        "description": "Nom del jugador",
+                        "type":"string"
+                    },
+                    "cognom":{
+                        "description": "Cognom del jugador",
+                        "type":"string"
+                    },
+                    "edat":{
+                        "description": "Edat del jugador",
+                        "type":"integer"
+                    },
+                    "ciutat":{
+                        "description": "Ciutat de on es el jugador",
+                        "type": "string"
+                    },
+                    "adreça":{
+                        "description": "Adreça del jugador",
+                        "type":"string"
+                    },
+                    "email":{
+                        "description": "Direcció de mail del jugador",
+                        "type":"string" 
+                    }
+                },
+                "required": ["num-jugador", "DNI", "nom", "cognom", "ciutat", "email"]   
+            }
+        }
+    }
+}
